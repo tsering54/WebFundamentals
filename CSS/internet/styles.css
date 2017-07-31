@@ -1,0 +1,139 @@
+.container{
+    font-family: sans-serif;
+    background-color: #e6e6e6;
+    width: 970px;
+    height: 1100px;
+    color: black;
+
+}
+
+.container h1{
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    margin: 10px;
+    font-weight: lighter;
+
+
+}
+/*www*/
+.container h2{
+    display: inline-block;
+    border-style: double;
+    background-color: #3771a1;
+    color: white;
+    width: 925px;
+    height: 20px;
+    padding: 20px;
+    font-weight: lighter;
+    margin: 0px;
+
+
+}
+
+.sb1{
+    width: 200px;
+    height: 220px;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    border-bottom: thin double #4b4b4b;
+    display: inline-block;
+}
+
+.button1{
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    background-color: #3771a1;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.button2{
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    background-color: #ed7e14;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top:15px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+.sb2{
+    background-image: url("ad_background.png");
+    display: inline-block;
+    color: white;
+    height: 300px;
+    width: 180px;
+    margin: 70px 0px 0px -25px;
+    text-align: center;
+    font-weight:-100;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.button3{
+    width: 150px;
+    height: 10px;
+    padding: 10px;
+    background-color: #3ac7dd;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+.content{
+
+    color: black;
+    display: inline-block;
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    width: 710px;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+}
+
+.main{
+    position: relative;
+    top: -40px;
+    text-align: right;
+    color:  #4b4b4b;
+    font-size: 12px;
+    padding:0px;
+    width: 710px;
+    display: inline-block;
+    border-bottom: thin double #4b4b4b;
+
+}
+
+.num{
+    font-size: 22px;
+    color: #3ac7dd;
+}
+
+.server{
+    position:relative;
+    left: 200px;
+}
+
+.notes{
+    position: absolute;
+    top: 620px;
+    left: 170px;
+}
+
+.footer{
+    display: inline-block;
+    border-style: solid;
+    border-color: #3ac7dd;
+    width: 710px;
+}

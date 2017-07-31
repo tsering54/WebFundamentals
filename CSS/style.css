@@ -226,7 +226,9 @@ total height and width - 900x975px */
     margin: 5px;
     padding: 10px;
 }
+
 .footer{
+    text-align: center;
     display: inline-block;
     background-color:#f6f6f6;
     position: relative;

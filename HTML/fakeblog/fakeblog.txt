@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>fake blog</title>
+    </head>
+    <body>
+        <h1>Michael Jordan</h1>
+        <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Jordan_Lipofsky.jpg/170px-Jordan_Lipofsky.jpg" alt="Jordan_Lipofsky.jpg"></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam eget lacus sit amet posuere. Nulla quis egestas erat. Aenean efficitur id
+            erat sit amet gravida. Proin sit amet facilisis quam. Aenean ac tellus pulvinar,
+            blandit diam nec, accumsan lorem. Sed congue dolor at orci hendrerit vehicula.
+            Quisque eget turpis nisi. In quis orci porta, tincidunt erat quis, sodales leo.
+            Integer fermentum ligula ac nisi cursus, a viverra ex maximus. Nunc vitae convallis enim,
+            vel sollicitudin libero. Etiam id rhoncus odio. Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Aenean sagittis dignissim tortor quis bibendum. Pellentesque mattis turpis in porta finibus.</p>
+        <p>
+            <table style="width: 10%" border="1">
+                <tbody>
+                    <tr>
+                        <td>Year</td>
+                        <td>PPG</td>
+                        <td>MVP</td>
+                    </tr>
+                    <tr>
+                        <td>1990-91</td>
+                        <td>31.5</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1991-91</td>
+                        <td>30.1</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1992-93</td>
+                        <td>32.6</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>1995-96</td>
+                        <td>30.4</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1996-97</td>
+                        <td>29.6</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>1997-98</td>
+                        <td>28.7</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table></p>
+
+            <p>
+                <ul>
+                    <li>1984 - 1993 Chicago Bulls</li>
+                    <li>1995 - 1998 Chicago Bulls</li>
+                    <li>2001 - 2003 Washington Wizards</li>
+                </ul>
+
+            </p>
+            <p><a href="video">Click Here for Awesome Highlight Video</a></p>
+
+            <p>Please take this short survey</p>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+
+            <p><input type="radio" name="yes" value="yes">
+            <label for="yes">Yes please send me lots of emails</label>
+
+            <input type="radio" name="no" value="no">
+            <label for="no">No, please do not send me any emails</label></p>
+
+            <p>How did you hear about us?</p>
+
+            <p><input type="checkbox" id = "fb" name="question" value="fb">
+            <label for="fb">Facebook</label></p>
+
+            <p><input type="checkbox" id = "newspaper" name="question" value="newspaper">
+            <label for="newspaper">Newspaper</label></p>
+
+            <p><input type="checkbox" id = "referral" name="question" value="referral">
+            <label for="referral">Referral</label></p>
+
+            <p><input type="submit" value="submit"></p>
+
+            </form>
+
+    </body>
+</html>

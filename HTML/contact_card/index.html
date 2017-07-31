@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <title>contact card</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+        </script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function(){
+
+                $("button").click(function(){
+
+                    var first = $("#first").val();
+                    var last=$("#last").val();
+                    var desc=$("#desc").val();
+
+                    //append all info to display on div right
+                    $("#right").append("<div id = 'card'><p>"+ first+" "+ last+ "</p><p id='back'>" + desc + "</p></div>");
+
+
+                    //clear form fields
+                    $("#first").val("");
+                    $("#last").val("");
+                    $("#desc").val("");
+
+                    //return false to prevent refresh
+                    return false;
+                });
+
+                //display description when you click on new card
+                $(document).on("click", "#card", function(){
+                    $(this).children().toggle();
+
+                });
+            });
+
+        </script>
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <div id="left">
+                <form>
+                    <label for="first">First Name</label>
+                    <input type="text" name="first" id="first">
+                    <label for="last">Last Name</label>
+                    <input type="text" name="last" id="last">
+                    <label for="desc">Description</label>
+                    <textarea id="desc"></textarea>
+                    <button>Add User</button>
+
+                </form>
+            </div>
+
+            <div id="right">
+            </div>
+
+        </div>
+
+    </body>
+</html>
